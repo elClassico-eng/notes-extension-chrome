@@ -1,0 +1,6 @@
+{
+    "name": "Notion",
+    "description": "An extension that allows you to write notes directly in Google Chrome.",
+    "version": "1.0",
+    "manifest_version": "3"
+}
