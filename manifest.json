@@ -1,6 +1,17 @@
 {
-    "name": "Notion",
-    "description": "An extension that allows you to write notes directly in Google Chrome.",
+    "name": "Me Notes Extension",
+    "description": "Save notes directly in Chrome",
     "version": "1.0",
-    "manifest_version": "3"
+    "manifest_version": 3,
+    "icons": {
+        "16": "./assets/icons8-note-48.png",
+        "24": "./assets/notes-icon24.png",
+        "32": "./assets/notes-icon32.png"
+    },
+    "action": {
+        "default_title": "What are your thoughts?",
+        "default_popup": "./popup.html",
+        "default_icons": "./assets/icons8-note-48.png"
+    },
+    "permissions": ["storage"]
 }
